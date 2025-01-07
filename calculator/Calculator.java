@@ -12,9 +12,19 @@ public class Calculator {
         double num2 = scanner.nextDouble();
 
 
+<<<<<<< HEAD
 
         System.out.println("Multiplication:");
 
+=======
+        System.out.println("Multiplication:");
+
+
+     
+
+
+
+>>>>>>> 96f539cbddffd22fc39349660aef6543592a741e
         char operator = scanner.next().charAt(0);
 
         double result;
@@ -23,7 +33,10 @@ public class Calculator {
             case '+':
                 result = num1 + num2;
                 break;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96f539cbddffd22fc39349660aef6543592a741e
             case '-':
                 result = num1 - num2;
                 break;

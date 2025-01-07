@@ -11,7 +11,14 @@ public class Calculator {
         System.out.println("Enter second number:");
         double num2 = scanner.nextDouble();
 
+
         System.out.println("Multiplication:");
+
+
+     
+
+
+
         char operator = scanner.next().charAt(0);
 
         double result;
@@ -28,6 +35,7 @@ public class Calculator {
                 break;
 
                 default:
+
 
                 System.out.println("Invalid operator!");
                 return;

@@ -26,6 +26,14 @@ public class Calculator {
             case '*':
                 result = num1 * num2;
                 break;
+            case '/':
+                if (num2 == 0) {
+                    System.out.println("Error: Division by zero!");
+                    return;
+                }
+                result = num1 / num2;
+                break;
+
 
                 default:
 
